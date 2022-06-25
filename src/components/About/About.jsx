@@ -10,7 +10,7 @@ export default function About(props) {
     <>
       <img src={props.profileImg} alt="" className="user-profile" />
       <p className="user-name">{props.name}</p>
-      <p className="user-description">{props.Info}</p>
+      <p className="user-description">{props.userInfo}</p>
       <h3>Categories</h3>
       <ul className="categories">{props.category}</ul>
       <h3>Follow</h3>
