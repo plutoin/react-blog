@@ -1,20 +1,20 @@
 import React from "react";
-import Post from "./Post";
+import "./main.css";
+
+import PostCard from "./PostCard/PostCard";
 import Header from "../../components/Header/Header";
-import About from "../../components/About/About";
 import Banner from "../../components/Banner/Banner";
 import Footer from "../../components/Footer/Footer";
 
-function Main() {
+function Home() {
   return (
     <>
       <Header />
       <Banner />
-      <Post />
-      <About />
+      <PostCard />
       <Footer />
     </>
   );
 }
 
-export default Main;
+export default Home;

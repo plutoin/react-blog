@@ -1,7 +1,12 @@
+import "./footer.css";
+
 export default function Footer() {
   return (
-    <>
-      <h1>Footer</h1>
-    </>
+    <footer>
+      <div className="max-width">
+        <h2>©Weniv Corp.</h2>
+        <button className="top-button">TOP</button>
+      </div>
+    </footer>
   );
 }
