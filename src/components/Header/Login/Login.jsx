@@ -11,7 +11,7 @@ import Profile from "../Profile/Profile";
 
 function LogoutBtn() {
   return (
-    <a href="#" className="button gray">
+    <a href="#!" className="button gray">
       <img src={LoginIcon} alt="" />
       <span>Login</span>
     </a>
@@ -21,7 +21,7 @@ function LogoutBtn() {
 function RegisterBtn() {
   return (
     <li className="only-pc">
-      <a href="#" className="button gray">
+      <a href="#!" className="button gray">
         <img src={registerIcon} alt="" />
         <span>Register</span>
       </a>
@@ -42,7 +42,7 @@ function WriteBtn() {
   return (
     <>
       <li>
-        <a href="#" className="button">
+        <a href="#!" className="button">
           <img src={modifyWhite} alt="" />
           <span>Write</span>
         </a>

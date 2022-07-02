@@ -16,7 +16,7 @@ export default function AboutCard() {
             userInfo={user.userInfo}
             category={user.category.map((categories) => (
               <li key={categories}>
-                <a href="#">{categories}</a>
+                <a href="#!">{categories}</a>
               </li>
             ))}
             sns={user.sns}

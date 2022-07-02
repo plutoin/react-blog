@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Route path="/" exact component={Main} />
-      <Route path="/post-view" exact component={PostView} />
+      <Route path="/postView" exact component={PostView} />
     </BrowserRouter>
   );
 }

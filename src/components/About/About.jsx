@@ -20,22 +20,22 @@ export default function About(props) {
       <h3>Follow</h3>
       <ul className="sns">
         <li>
-          <a href="#">
+          <a href="#!">
             <img src={Facebook} alt="Facebook" />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#!">
             <img src={Twitter} alt="Twitter" />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#!">
             <img src={Instagram} alt="Instagram" />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#!">
             <img src={GitHub} alt="GitHub" />
           </a>
         </li>

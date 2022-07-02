@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 export default function Post(props) {
   return (
     <li>
-      <a href="/post-view" className="post">
+      <Link to="/postView" className="post">
         <article>
           <img src={`${process.env.PUBLIC_URL}${props.thumbnailImg}`} alt="" />
           <div className="contents-wrap">
@@ -32,7 +34,7 @@ export default function Post(props) {
             <p className="post-description">{props.contents}</p>
           </div>
         </article>
-      </a>
+      </Link>
     </li>
   );
 }
