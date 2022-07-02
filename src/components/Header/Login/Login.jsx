@@ -11,12 +11,10 @@ import Profile from "../Profile/Profile";
 
 function LogoutBtn() {
   return (
-    <li>
-      <a href="#" className="button gray">
-        <img src={LoginIcon} alt="" />
-        <span>Login</span>
-      </a>
-    </li>
+    <a href="#" className="button gray">
+      <img src={LoginIcon} alt="" />
+      <span>Login</span>
+    </a>
   );
 }
 

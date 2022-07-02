@@ -1,7 +1,7 @@
 import "./banner.css";
 import { useLocation } from "react-router-dom";
 import data from "../../data.json";
-import PostViewBg from "../../assets/images/post-background6.jpg";
+import PostViewBg from "../../assets/post-background6.jpg";
 
 const BackgroundImg = {
   backgroundImage: `url(${PostViewBg})`

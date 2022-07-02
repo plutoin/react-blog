@@ -1,7 +1,7 @@
 import "./view.css";
 
-import profileImg from "../../../assets/images/profile.jpg";
-import postImg from "../../../assets/images/post-background6.jpg";
+import profileImg from "../../../assets/profile.jpg";
+import postImg from "../../../assets/post-background6.jpg";
 
 export default function View() {
   return (

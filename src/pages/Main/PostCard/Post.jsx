@@ -3,7 +3,7 @@ export default function Post(props) {
     <li>
       <a href="/post-view" className="post">
         <article>
-          <img src={props.thumbnailImg} alt="" />
+          <img src={`${process.env.PUBLIC_URL}${props.thumbnailImg}`} alt="" />
           <div className="contents-wrap">
             {/* <!-- category --> */}
             <dl className="category">
@@ -18,7 +18,11 @@ export default function Post(props) {
             <dl className="author-wrap">
               <dt className="a11y-hidden">Category</dt>
               <dd className="author">
-                <img src={props.profileImg} alt="" /> Chilli
+                <img
+                  src={`${process.env.PUBLIC_URL}${props.profileImg}`}
+                  alt=""
+                />{" "}
+                Chilli
               </dd>
               <dt className="a11y-hidden">Created</dt>
               <dd className="created">{props.created}</dd>

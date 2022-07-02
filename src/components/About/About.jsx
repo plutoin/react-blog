@@ -8,7 +8,11 @@ import GitHub from "../../assets/Github.svg";
 export default function About(props) {
   return (
     <>
-      <img src={props.profileImg} alt="" className="user-profile" />
+      <img
+        src={`${process.env.PUBLIC_URL}${props.profileImg}`}
+        alt=""
+        className="user-profile"
+      />
       <p className="user-name">{props.name}</p>
       <p className="user-description">{props.userInfo}</p>
       <h3>Categories</h3>
